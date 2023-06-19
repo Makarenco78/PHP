@@ -2,18 +2,18 @@ ARRAY
 <?php
 $arreglo = array('H','O','L','A')
 $arreglo = [H,O,L,A]
-array_push($arreglo,'!')	agrega un elemento al final del arreglo
-array_merge($arreglo1, $arreglo2)
-array_reverse()
-array_map()
-array_chunk($arreglo, 10)	divide un arreglo en n elementos
-array_column($arreglo, $columna)
+$arreglo=array_push($arreglo,'!')				/*agrega un elemento al final del arreglo*/
+$arreglo=array_merge($arreglo1, $arreglo2)		/*combina arreglos*/
+$arreglo=array_reverse()
+$arreglo=array_map()							//-->averiguar que hace
+$sub_arreglo=array_chunk($arreglo, 10)			/*divide un arreglo en n elementos*/
+$nombre=array_column($arreglo, $columna)
 
 
 empty()
 
-implode()			averiguar para que sirve
-array_unshift()			averiguar que hace esto
+implode()										//-->averiguar para que sirve
+array_unshift()									//-->averiguar que hace esto
 
 
 "FUNCIONES STR"
@@ -28,7 +28,7 @@ shuffle()
 substr($texto, 0 , 10);
 range('a','z')
 
-in_array(,)			averiguar que hace esto
+in_array(,)										//-->averiguar que hace esto
 
 
 FUNCIONES GENERICAS

@@ -1,0 +1,2 @@
+[a-zñ0-9]{5,15}(@hotmail.)(es|com)|
+[a-zñ0-9]{5,15}(@gmail.)(es|com.uy|com)

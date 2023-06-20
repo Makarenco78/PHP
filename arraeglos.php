@@ -4,8 +4,11 @@ ARRAY
 "FUNCIONES ARRAY"
 $arreglo = array('H','O','L','A')
 $arreglo = [H,O,L,A]
-$arreglo=array_push($arreglo,'!')			/*agrega un elemento al final*/
-$array_unshift($arreglo, $elm1, $elm2, ...)		/*agrega los elementos al comienz*/
+$arreglo=array_push($arreglo,'!','!')			/*agrega los elementos al final*/
+$arreglo=array_pop($arreglo)				/*quita el ultimo elemento del arreglo*/
+
+$array_shift($arreglo)					/*quita un elemento al comienzo*/
+$array_unshift($arreglo, $elm1, $elm2, ...)		/*agrega los elementos al comienzo*/
 
 $arreglo=array_merge($arreglo1, $arreglo2)		/*combina arreglos*/
 $arreglo=array_reverse()
@@ -30,7 +33,6 @@ ltrim($string, " ")
 
 rand(0,1)
 random_int(0,10)
-ord()
 strrev()
 strlen()
 strtoupper()

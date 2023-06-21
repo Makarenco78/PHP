@@ -25,6 +25,13 @@ $string=implode(" ", $arreglo) 				/*une o concatena strings*/
 $string=join(' ', $arreglo)				/*similar a implode*/
 
 
+FUNCIONES STR
+
+strotok($string "separador")	//separa una cadena segun un separador \n \t \s
+
+
+
+
 FUNCIONES GENERICAS
 function saludar($saludo="Hola"):string{
   return $saludo;

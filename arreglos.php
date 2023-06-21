@@ -17,7 +17,7 @@ $sub_arreglo=array_chunk($arreglo, 10)			/*divide un arreglo en n elementos*/
 $nombre=array_column($arreglo, $columna)
 $total=array_sum($arreglo)
 
-empty()
+empty()         //funcion para evaluar si una cadena está vacía
 
 
 "OPERADOR TERNARIO"

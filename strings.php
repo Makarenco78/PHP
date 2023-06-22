@@ -1,4 +1,6 @@
 <?php
+www.php.net/manual/es/ref.strings.php
+
 
 "OPERADOR TERNARIO"
 $suma$array ? array_sum($array) : 0			/*Si el array tiene elementos revuelve la suma*/
@@ -10,8 +12,13 @@ trim($string, " ")
 rtrim($string, " ")
 ltrim($string, " ")
 
+
 rand(0,1)
 random_int(0,10)
+
+str_replace();
+str_ireplace();
+
 strrev()
 strlen()
 strtoupper()

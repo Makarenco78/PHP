@@ -12,4 +12,3 @@ sudo iptables -A OUTPUT -o eth1  -j ACCEPT
 
 #sudo iptables -L -nv -line--numbers
 echo "Fin de la configuracion de firewall - Ejercicio 10"
-#fin del archivo

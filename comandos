@@ -6,5 +6,6 @@ user::rwx
 group::r--
 other::r--
 
+averiguar sobre stiky bit
 umask
 0022

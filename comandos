@@ -1,0 +1,10 @@
+getfacl script.sh
+# file: script.sh
+# owner: marcelo
+# group: devs
+user::rwx
+group::r--
+other::r--
+
+umask
+0022
